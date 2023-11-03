@@ -1,0 +1,156 @@
+
+.outer-container {
+    padding: 5px;
+    background-color: whitesmoke;
+}
+
+.main-container {
+    background-color: white;
+    padding: 20px 30px;
+}
+.heading {
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: space-between;
+    /* display: grid;
+    height: 60px;
+    width: 100%;
+    grid-template-columns: 3fr 1fr 20px; */
+    position: relative;
+}
+
+.markAllCont {
+    position: relative;
+    display: flex;
+    justify-content:end ;
+    align-items: center;
+    flex-shrink: 2;
+}
+
+.markAll {
+    font-weight: 400;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.7em;
+    background-color: rgb(201, 197, 197);
+    padding: 8px;
+    border-radius: 7px;
+    transition: all 0.5s;
+    position: relative;
+    right: 0;
+    text-align: center;
+    cursor: pointer;
+}
+.markAll:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.NotificationText {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    display: flex;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.notiCont {
+    display: flex;
+}
+
+#notifNumber {
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(8, 8, 209);
+    font-size: 0.8em;
+    padding: 5px 7px;
+    border-radius: 4px;
+    
+}
+
+
+
+
+.profilePhoto {
+    height: 40px;
+}
+.notification{
+    display: flex;
+    position: relative;
+    background-color: rgb(185, 211, 235);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    transition: all 0.6s;
+    cursor: pointer;
+}
+
+.notification:hover {
+    background-color: gray;
+}
+
+.notification:focus {
+    background-color: gray;
+}
+
+.notiComment {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 6px;
+    margin-left: 12px;
+    font-size: 0.9em;
+}
+
+.privateMessage {
+    margin-top: 20px;
+    font-size: 0.84em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: rgb(113, 128, 141) 0.3px solid; 
+    padding: 9px;
+    border-radius: 7px;
+    background-color:rgb(113, 128, 141) ;
+    color: rgb(248, 246, 246);
+}
+
+.privateMessage:hover {
+    background-color: gray;
+}
+
+.notiComment5 {
+    margin-right: 10px;
+}
+/* .chessCont {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+} */
+.chess {
+    height: 30px;
+    justify-self: end;
+    position: absolute;
+    right: 20px;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 15px;
+    background-color:rgb(99, 97, 97);
+}
+
+.attribution {
+
+    color:rgb(185, 211, 235);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.attribution a {
+    color: white;
+}
